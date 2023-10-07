@@ -1,0 +1,16 @@
+.cosito {
+    display: flex;
+    justify-content: space-between; /* Espacio uniforme entre los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+  }
+
+  .cosito .navbar-nav .nav-item {
+    margin-right: 10px; /* Espacio entre elementos (puedes ajustar este valor) */
+  }
+
+
+  .carousel-image {
+    height: auto; /* Puedes ajustar el valor según tus necesidades */
+    width: auto; /* Mantén la anchura automática para conservar la proporción original */
+    object-fit: cover; /* La imagen se ajusta según el alto y ancho del elemento */
+  }
