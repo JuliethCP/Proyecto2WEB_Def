@@ -47,3 +47,13 @@
     margin-left: auto;
 }
     
+
+.card {
+    height: 400px; /* Altura fija para las tarjetas */
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
