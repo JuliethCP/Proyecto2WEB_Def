@@ -94,14 +94,17 @@
       <div class="container-fluid">
 
         <h1 class="text-center">Novedades</h1>
+
         <div class="card" style="width: 18rem;">
-            <img src="imgs/albums/bp-bornPink.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
+          <img src="<?php echo $imgs/albums2/i-dle-IFeel-resized.jpg; ?>" class="card-img-top" alt="...">
+          <div class="card-body">
               <h5 class="card-title">Album Born Pink</h5>
               <p class="card-text">$50</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
           </div>
+      </div>
+
+        
           <div class="card" style="width: 18rem;">
             <img src="imgs/albums/bp-Jisoo.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -119,7 +122,35 @@
             </div>
           </div>
       </div>
-     
+
+      <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h6>Dirección</h6>
+                <p>Alajuela, CR</p>
+            </div>
+            <div class="col-md-4 ">
+                <h6>Contactos</h6>
+                <p><a href="tel:+(506)8489-4736">+(506) 8489-4736</a></p>
+                <p><a href="tel:+(506)8603-6787">+(506) 8603-6787</a></p>
+                <p><a href="mailto:nicolejara09@gmail.com">nicolejara09@gmail.com</a></p>
+                <p><a href="mailto:juliethcp22@gmail.com">juliethcp22@gmail.com</a></p>
+            </div>
+            <div class="col-md-4">
+                <h6>Navegar</h6>
+                <a href="index.html">Home</a><br>
+                <a href="about.html">About</a><br>
+                <a href="#">Blogs</a><br>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-copies text-center">
+        <p>© 2023 - Todos los derechos reservados | Diseñado por Nicole y Julieth</p>
+    </div>
+</footer>
+
 
 
 
@@ -131,6 +162,28 @@
         </svg>
     </button>
 </div>
+
+
+<script>
+  // Espera a que el DOM esté completamente cargado
+  document.addEventListener('DOMContentLoaded', function() {
+      var xhr = new XMLHttpRequest();
+      xhr.open('GET', 'cargarImagen.php', true);
+      xhr.responseType = 'blob';
+
+      xhr.onload = function() {
+          if (xhr.status === 200) {
+              var blob = xhr.response;
+              var img = document.getElementById('imagenMostrada');
+              img.src = URL.createObjectURL(blob);
+          } else {
+              console.error('Error al cargar la imagen: ' + xhr.status);
+          }
+      };
+
+      xhr.send();
+  });
+</script>
 
 <script>
     // When the user scrolls down 20px from the top of the document, show the button
@@ -155,6 +208,7 @@
 
 </body>
 </html>
+
 
 <script>
     setInterval("location.reload()",10000);
