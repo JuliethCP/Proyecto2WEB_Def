@@ -1,0 +1,898 @@
+[
+    {
+        "id": 1,
+        "nombre": "BLACKPINK ZIP-UP HOODIE",
+        "ProductMaterial": "COTTON",
+        "Size(cm)":	"M: Chest 63 cm, Length 70 cm, Shoulder 58 cm, Sleeve 54 cm \n L: Chest 66 cm, Length 72 cm, Shoulder 61 cm, Sleeve 56.5 cm",
+        "cantidad": 438,
+        "precio": 95,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/bp-hoodie.png"
+        ]
+    },
+    {
+        "id": 2,
+        "nombre": "BLACKPINK BUCKET HAT",
+        "ProductMaterial": "COTTON",
+        "Size(cm)": "ONE SIZE: 58 cm",
+        "cantidad": 349,
+        "precio": 42,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/bp-hat.png"
+        ]
+    },
+    {
+        "id": 3,
+        "nombre": "BLACKPINK T-SHIRT",
+        "ProductMaterial": "COTTON",
+        "Size(cm)":	"M: Chest 51 cm, Length 71.5 cm, Shoulder 46 cm, Sleeve 23 cm \n L: Chest 53 cm, Length 73.5 cm, Shoulder 47 cm, Sleeve 24 cm",
+        "cantidad": 123,
+        "precio": 39,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/bp-tshirt.png"
+        ]
+    },
+    {
+        "id": 4,
+        "nombre": "BLACKPINK BEANIE",
+        "ProductMaterial": "ACRYLIC 100%",
+        "Size(cm)": "FREE",
+        "cantidad": 132,
+        "precio": 23,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/bp-beanie.png"
+        ]
+    },
+    {
+        "id": 5,
+        "nombre": "BLACKPINK CHARACTER DOLL",
+        "ProductMaterial": "POLYESTER 100%",
+        "Size(mm)": "SOOYA : 130 x 220 x 110 mm \n GOMDEUKI : 135 x 220 x 110 mm \n ROSIE : 140 x 220 x 180 mm \n PPEU : 130 x 220 x 120 mm",
+        "cantidad": 84,
+        "precio": 36,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/bp-dolls.png"
+        ]
+    },
+    {
+        "id": 6,
+        "nombre": "BLACKPINK CHARACTER KEYRING",
+        "ProductMaterial": "POLYESTER 100%",
+        "Size(mm)": "SOOYA : 70 x 110 x 55 mm \n GOMDEUKI : 70 x 110 x 55 mm \n ROSIE : 70 x 110 x 95 mm \n PPEU : 70 x 110 x 70 mm",
+        "cantidad": 212,
+        "precio": 14,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/bp-keyring.png"
+        ]
+    },
+    {
+        "id": 7,
+        "nombre": "BLACKPINK STICKER PACK",
+        "ProductMaterial": "PAPER, PP, PVC",
+        "Size(mm)": "MINIMUM 73*50 \n MAXIMUM 131*75",
+        "cantidad": 414,
+        "precio": 8,
+        "categoria": "MERCH",
+        "imagenes": [
+            "imgs/productos/bp-stickers.png"
+        ]
+    },
+    {
+        "id": 8,
+        "nombre": "BLACKPINK TOUR HOODIE",
+        "ProductMaterial": "COTTON 100%",
+        "Size(cm)": "M: Chest 64 cm, Length 69.5 cm, Shoulder 18 cm, Sleeve 54 cm \n L: Chest: Chest 66 cm, Length 71.5 cm, Shoulder 20 cm, Sleeve 56 cm",
+        "cantidad": 215,
+        "precio": 73,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/bp-hoodieTour.png"
+        ]
+    },
+    {
+        "id": 9,
+        "nombre": "BLACKPINK REUSABLE BAG",
+        "ProductMaterial": "R-PET",
+        "Size(mm)": "500 x 150x 400 mm",
+        "cantidad": 349,
+        "precio": 8,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/bp-bag.png"
+        ]
+    },
+    {
+        "id": 10,
+        "nombre": "BLACKPINK PHOTO BINDER",
+        "ProductMaterial": "PVC, METAL",
+        "Size(mm)": "BINDER: 140 * 140 mm \n PHOTO CARD: 55 * 85 mm",
+        "cantidad": 316,
+        "precio": 23,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/bp-binder.png"
+        ]
+    },
+    {
+        "id": 11,
+        "nombre": "BLACKPINK PHOTO PACKAGE",
+        "ProductMaterial": "PAPER",
+        "Size(cm)": "A3 POSTER: 297 * 420 mm \n POST CARD: 100 * 150 mm \n POLAROID PHOTO: 90 * 106 mm \n 2 CUT PHOTO: 50 * 150 mm \n PHOTO CARD: 55 * 85 mm",
+        "cantidad": 257,
+        "precio": 23,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/bp-photopackage.png"
+        ]
+    },
+    {
+        "id": 12,
+        "nombre": "BLACKPINK SCRUNCHIE",
+        "ProductMaterial": "POLYESTER",
+        "Size(mm)": "SCRUNCHIE: 160 * 160 mm \n DAENG-GI: 45 * 880 mm",
+        "cantidad": 169,
+        "precio": 19,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/bp-scrunchie.png"
+        ]
+    },
+    {
+        "id": 13,
+        "nombre": "BLACKPINK ALBUM BORN PINK",
+        "Label": "YG Entertainment",
+        "Title": "BORN PINK",
+        "cantidad": 843,
+        "precio": 49,
+        "categoria": "ALBUMS",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/bp-album.png"
+        ]
+    },
+    {
+        "id": 14,
+        "nombre": "(G)I-DLE MINI ALBUM I AM",
+        "Label": "CUBE Ent.",
+        "Title": "LATATA",
+        "cantidad": 842,
+        "precio": 13,
+        "categoria": "ALBUMS",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/gidle-IAm.png"
+        ]
+    },
+    {
+        "id": 15,
+        "nombre": "(G)I-DLE MINI ALBUM I TRUST",
+        "Label": "CUBE Ent.",
+        "Title": "OH MY GOD",
+        "cantidad": 840,
+        "precio": 14,
+        "categoria": "ALBUMS",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/gidle-ITrust.png"
+        ]
+    },
+    {
+        "id": 16,
+        "nombre": "(G)I-DLE SINGLE ALBUM DUMDI DUMDI",
+        "Label": "CUBE Ent.",
+        "Title": "DUMDi DUMDi",
+        "cantidad": 642,
+        "precio": 14,
+        "categoria": "ALBUMS",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/gidle-dumdi.png"
+        ]
+    },
+    {
+        "id": 17,
+        "nombre": "(G)I-DLE MINI ALBUM I LOVE",
+        "Label": "CUBE Ent.",
+        "Title": "NXDE",
+        "cantidad": 349,
+        "precio": 17,
+        "categoria": "ALBUMS",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/gidle-ILove.png"
+        ]
+    },
+    {
+        "id": 18,
+        "nombre": "(G)I-DLE ALBUM I FEEL BUTTERFLY VER.",
+        "Label": "CUBE Ent.",
+        "Title": "TO BE ANNOUNCED",
+        "cantidad": 532,
+        "precio": 17,
+        "categoria": "ALBUMS",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/gidle-butterfly.png"
+        ]
+    },
+    {
+        "id": 19,
+        "nombre": "(G)I-DLE SPECIAL ALBUM HEAT",
+        "Label": "CUBE Ent.",
+        "Title": "TO BE ANNOUNCED",
+        "cantidad": 621,
+        "precio": 18,
+        "categoria": "ALBUMS",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/gidle-heat.png"
+        ]
+    },
+    {
+        "id": 20,
+        "nombre": "(G)I-DLE MINI ALBUM I BURN",
+        "Label": "CUBE Ent.",
+        "Title": "HWA",
+        "cantidad": 613,
+        "precio": 14,
+        "categoria": "ALBUMS",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/gidle-IBurn.png"
+        ]
+    },
+    {
+        "id": 21,
+        "nombre": "(G)I-DLE ALBUM I FEEL CAT VER.",
+        "Label": "CUBE Ent.",
+        "Title": "TO BE ANNOUNCED",
+        "cantidad": 526,
+        "precio": 17,
+        "categoria": "ALBUMS",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/gidle-cat.png"
+        ]
+    },
+    {
+        "id": 22,
+        "nombre": "(G)I-DLE ALBUM I FEEL QUEEN VER.",
+        "Label": "CUBE Ent.",
+        "Title": "TO BE ANNOUNCED",
+        "cantidad": 416,
+        "precio": 17,
+        "categoria": "ALBUMS",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/gidle-queen.png"
+        ]
+    },
+    {
+        "id": 23,
+        "nombre": "(G)I-DLE ALBUM I FEEL SET",
+        "Label": "CUBE Ent.",
+        "Title": "TO BE ANNOUNCED",
+        "cantidad": 735,
+        "precio": 35,
+        "categoria": "ALBUMS",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/gidle-set.png"
+        ]
+    },
+    {
+        "id": 24,
+        "nombre": "LE SSERAFIM OFFICIAL LIGHT STICK",
+        "ProductMaterial": "ABS, PC",
+        "Size(cm)": "About 4.96 x 25.7 x 4.2 cm",
+        "cantidad": 259,
+        "precio": 46,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/LS-lightstick.png"
+        ]
+    },
+    {
+        "id": 25,
+        "nombre": "LE SSERAFIM KEYRING",
+        "ProductMaterial": "ZINC ALLOY, STEEL",
+        "Size(cm)": "3 x 10.9 cm",
+        "cantidad": 632,
+        "precio": 19,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/LS-keyring.png"
+        ]
+    },
+    {
+        "id": 26,
+        "nombre": "LE SSERAFIM BADGE SET",
+        "ProductMaterial": "ZINC ALLOY, STEEL",
+        "Size(cm)": "Tour ver. : 6.5 x 1.1 cm \n Symbol ver. : 6.5 x 1.1, 10 x 9 x 1.4 cm",
+        "cantidad": 312,
+        "precio": 20,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/LS-badge.png"
+        ]
+    },
+    {
+        "id": 27,
+        "nombre": "LE SSERAFIM BOTTLE",
+        "ProductMaterial": "STAINLESS STEEL, SILICONE",
+        "Size(cm)": "7 x 21.7, 500ml",
+        "cantidad": 132,
+        "precio": 33,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/LS-bottle.png"
+        ]
+    },
+    {
+        "id": 28,
+        "nombre": "LE SSERAFIM SHOPPER BAG",
+        "ProductMaterial": "90% POLYESTER / 10% NYLON",
+        "Size(cm)": "Width: 51 cm, Depth: 17 cm, Height: 39.5 cm, Strap length: 63 cm",
+        "cantidad": 578,
+        "precio": 13,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/LS-Bag.png"
+        ]
+    },
+    {
+        "id": 29,
+        "nombre": "LE SSERAFIM BUCKET HAT",
+        "ProductMaterial": "Shell: 100% Polyester \n Lining: 100% Cotton",
+        "Size(cm)": "Inner Circumference: 58 cm, Brim Width: 6.5 cm, Height: 9 cm",
+        "cantidad": 114,
+        "precio": 42,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/LS-Hat.png"
+        ]
+    },
+    {
+        "id": 30,
+        "nombre": "LE SSERAFIM LANDYARD HOLDER",
+        "ProductMaterial": "PVC, PE, POM, ZINC ALLOY, BRASS, PAPER",
+        "Size(cm)": "HOLDER: 7 x 11.3 cm \n LANYARD: 2 x 50 cm \n PHOTOCARD: 5.4 x 8.6 cm",
+        "cantidad": 634,
+        "precio": 20,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/LS-Lanyardholder.png"
+        ]
+    },
+    {
+        "id": 31,
+        "nombre": "LE SSERAFIM PHOTO CARD BINDER",
+        "ProductMaterial": "PAPER, PP, PVC, STEEL, ACRYLIC, POLYESTER",
+        "Size(cm)": "18.1 x 24.7 x 4 cm",
+        "cantidad": 342,
+        "precio": 30,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/LS-Binder.png"
+        ]
+    },
+    {
+        "id": 32,
+        "nombre": "LE SSERAFIM MINI PHOTO CARD SET",
+        "ProductMaterial": "PAPER",
+        "Size(cm)": "5.4 x 8.6 cm",
+        "cantidad": 542,
+        "precio": 74,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/LS-PhotoCardSet.png"
+        ]
+    },
+    {
+        "id": 33,
+        "nombre": "LE SSERAFIM STICKER PACK",
+        "ProductMaterial": "PAPER",
+        "Size(cm)": "MIN: 2.1 x 2.7 cm \n MAX: 3.9 x 9.2 cm",
+        "cantidad": 835,
+        "precio": 14,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/LS-Stickers.png"
+        ]
+    },
+    {
+        "id": 34,
+        "nombre": "LE SSERAFIM POSTCARD BOOK",
+        "ProductMaterial": "PAPER",
+        "Size(cm)": "15.5 x 21.5 x 0.6",
+        "cantidad": 412,
+        "precio": 20,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/LS-PostcardBook.png"
+        ]
+    },
+    {
+        "id": 35,
+        "nombre": "NEW JEANS HOODIE",
+        "ProductMaterial": "COTTON 100%",
+        "Size(cm)": "M: Length 68 cm, Shouler width 79 cm, Chest width 70 cm, Bottom width 54 cm, Sleeve length 47 cm \n L: Length 73 cm, Shouler width 84 cm, Chest width 77 cm,  Bottom width 57 cm, Sleeve length 54 cm \n STICKER : 9 x 6.9",
+        "cantidad": 314,
+        "precio": 115,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/NJ-Hoodie.png"
+        ]
+    },
+    {
+        "id": 36,
+        "nombre": "NEW JEANS TOKKI PHONE CASE",
+        "ProductMaterial": "TPU",
+        "Size(cm)": "IPHONE 13 : 7.5*15*1 \n IPHONE 13 PRO : 7.5*15*1 \n IPHONE 13 PRO MAX : 8*16.3*1 \n IPHONE 13 MINI : 6.3*13.3*1 \n IPHONE 14 : 7.5*15*1 \n IPHONE 14 PRO : 7.5*15*1 \n IPHONE 14 PRO MAX : 8*16.3*1 \n IPHONE 14 PLUS : 8*16.3*1",
+        "cantidad": 342,
+        "precio": 25,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/NJ-Case.png"
+        ]
+    },
+    {
+        "id": 37,
+        "nombre": "NEW JEANS BRACELET",
+        "ProductMaterial": "SURGICAL STEEL",
+        "Size(cm)": "Ball chain bracelet length: 20 cm \n Initial charm: 1.5 x 0.5 x 0.15 cm",
+        "cantidad": 623,
+        "precio": 27,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/NJ-Bracelet.png"
+        ]
+    },
+    {
+        "id": 38,
+        "nombre": "NEW JEANS SMARTTOK (TOKKI)",
+        "ProductMaterial": "ACRYLIC, PC, TPU",
+        "Size(cm)": "7.3 * 6.5 cm",
+        "cantidad": 743,
+        "precio": 18,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/NJ-Smarttok"
+        ]
+    },
+    {
+        "id": 39,
+        "nombre": "NEW JEANS FLUFFY KEYRING",
+        "ProductMaterial": "100% Polyester",
+        "Size(cm)": "15 * 11.85 cm",
+        "cantidad": 424,
+        "precio": 22,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/NJ-Fluffy.png"
+        ]
+    },
+    {
+        "id": 40,
+        "nombre": "NEW JEANS TOKKI KEY",
+        "ProductMaterial": "ZINC ALLOY, STAINLESS STEEL",
+        "Size(cm)": "KEY : 2.8 x 5 x 0.4 cm \n DICE : 1 x 1 x 1 cm",
+        "cantidad": 622,
+        "precio": 20,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/NJ-Key.png"
+        ]
+    },
+    {
+        "id": 41,
+        "nombre": "NEW JEANS NECKLACE",
+        "ProductMaterial": "SURGICAL STEEL",
+        "Size(cm)": "LOCKET: Length: 2.5 cm, Height: 2.9 cm, Width: 1.2 cm \n CHAIN LENGTH: 80 cm",
+        "cantidad": 523,
+        "precio": 33,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/NJ-Necklace.png"
+        ]
+    },
+    {
+        "id": 42,
+        "nombre": "NEW JEANS SITTING CUSHION",
+        "ProductMaterial": "POLYESTER, POLYURETHANE",
+        "Size(cm)": "40 * 40 cm",
+        "cantidad": 412,
+        "precio": 22,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/NJ-Cushion.png"
+        ]
+    },
+    {
+        "id": 43,
+        "nombre": "NEW JEANS ACRYLIC RING",
+        "ProductMaterial": "ACRYLIC",
+        "Size(cm)": "Inner Diameter: 1.6, Thickness: 0.3",
+        "cantidad": 643,
+        "precio": 10,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/NJ-Ring.png"
+        ]
+    },
+    {
+        "id": 44,
+        "nombre": "NEW JEANS ACRYLIC TOPPER SET",
+        "ProductMaterial": "ACRYLIC",
+        "Size(cm)": "2 * 6 cm",
+        "cantidad": 512,
+        "precio": 28,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/NJ-Topper.png"
+        ]
+    },
+    {
+        "id": 45,
+        "nombre": "NEW JEANS OMG POSTER",
+        "ProductMaterial": "PAPER",
+        "Size(cm)": "59.4 x 42 cm",
+        "cantidad": 842,
+        "precio": 18,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/NJ-Poster.png"
+        ]
+    },
+    {
+        "id": 46,
+        "nombre": "NEW JEANS LIGHTSTICK",
+        "ProductMaterial": "ABS, PC",
+        "Size(cm)": "11 x 23.1 x 5.27 cm",
+        "cantidad": 643,
+        "precio": 45,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/NJ-LightStick.png"
+        ]
+    },
+    {
+        "id": 47,
+        "nombre": "NEW JEANS SWEATSHIRT",
+        "ProductMaterial": "COTTON 100%",
+        "Size(cm)": "M: Chest 63 cm, Length 70 cm, Shoulder 58 cm, Sleeve 54 cm \n L: Chest 66 cm, Length 72 cm, Shoulder 61 cm, Sleeve 56.5 cm",
+        "cantidad": 745,
+        "precio": 64,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/NJ-SWEATSHIRT.png"
+        ]
+    },
+    {
+        "id": 48,
+        "nombre": "NEW JEANS DICE KEYRING",
+        "ProductMaterial": "ZINC ALLOY, STAINLESS STEEL",
+        "Size(cm)": "NJ TOKKI CHARM: 3 x 3 x 1.1 cm \n DICE CHARM: 1.5 x 1.5 x1.5 cm \n CHAIN: 1 x 4.5 x 0.8 cm",
+        "cantidad": 251,
+        "precio": 21,
+        "categoria": "MERCH",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/NJ-Dice.png"
+        ]
+    },
+    {
+        "id": 49,
+        "nombre": "BTS YOU NEVER WALK ALONE",
+        "Label": "Big Hit Entertainment",
+        "Title": "YOU NEVER WALK ALONE",
+        "cantidad": 153,
+        "precio": 17,
+        "categoria": "ALBUMS",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/BTS-Never.jpg"
+        ]
+    },
+    {
+        "id": 50,
+        "nombre": "BTS ALBUM WINGS",
+        "Label": "Big Hit Entertainment",
+        "Title": "WINGS",
+        "cantidad": 634,
+        "precio": 14,
+        "categoria": "ALBUMS",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/BTS-Wings.jpg"
+        ]
+    },
+    {
+        "id": 51,
+        "nombre": "BTS PROOF SET",
+        "Label": "Big Hit Entertainment",
+        "Title": "TO BE ANNOUNCED",
+        "cantidad": 234,
+        "precio": 69,
+        "categoria": "ALBUMS",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/BTS-Proof.png"
+        ]
+    },
+    {
+        "id": 52,
+        "nombre": "BTS LOVE YOURSELF",
+        "Label": "Big Hit Entertainment",
+        "Title": "LOVE YOURSELF 'Her'",
+        "cantidad": 671,
+        "precio": 48,
+        "categoria": "ALBUMS",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/BTS-LY.png"
+        ]
+    },
+    {
+        "id": 53,
+        "nombre": "BTS MAP OF THE SOUL",
+        "Label": "Big Hit Entertainment",
+        "Title": "Map Of The Soul : 7",
+        "cantidad": 345,
+        "precio": 18,
+        "categoria": "ALBUMS",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/BTS-Map.jpg"
+        ]
+    },
+    {
+        "id": 54,
+        "nombre": "BTS SINGLE ALBUM 2 COOL 4 SKOOL",
+        "Label": "Big Hit Entertainment",
+        "Title": "2 COOL 4 SKOOL",
+        "cantidad": 623,
+        "precio": 9,
+        "categoria": "ALBUMS",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/BTS-2cool.jpg"
+        ]
+    },
+    {
+        "id": 55,
+        "nombre": "BTS ALBUM DARK AND WILD",
+        "Label": "Big Hit Entertainment",
+        "Title": "DARK AND WILD",
+        "cantidad": 825,
+        "precio": 14,
+        "categoria": "ALBUMS",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/BTS-Dark.jpg"
+        ]
+    },
+    {
+        "id": 56,
+        "nombre": "BTS THE BEST",
+        "Label": "Big Hit Entertainment",
+        "Title": "BTS THE BEST",
+        "cantidad": 183,
+        "precio": 32,
+        "categoria": "ALBUMS",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/BTS-Best.jpg"
+        ]
+    },
+    {
+        "id": 57,
+        "nombre": "BTS DYNAMITE VINYL",
+        "Label": "Big Hit Entertainment",
+        "Title": "Dynamite - Limited Edition 7 Vinyl",
+        "cantidad": 146,
+        "precio": 10,
+        "categoria": "ALBUMS",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/BTS-Dynamite.jpg"
+        ]
+    },
+    {
+        "id": 58,
+        "nombre": "BTS ALBUM BE",
+        "Label": "Big Hit Entertainment",
+        "Title": "BE (Deluxe Edition)",
+        "cantidad": 451,
+        "precio": 37,
+        "categoria": "ALBUMS",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/BTS-BE.jpg"
+        ]
+    },
+    {
+        "id": 59,
+        "nombre": "TXT THE DREAM CHAPTER MAGIC",
+        "Label": "Big Hit Entertainment",
+        "Title": "MAGIC",
+        "cantidad": 714,
+        "precio": 15,
+        "categoria": "ALBUMS",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/TXT-DreamMagic.jpg"
+        ]
+    },
+    {
+        "id": 60,
+        "nombre": "TXT THURSDAY'S CHILD SET",
+        "Label": "Bighit Music",
+        "Title": "Thursday's Child",
+        "cantidad": 324,
+        "precio": 46,
+        "categoria": "ALBUMS",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/TXT-Child.png"
+        ]
+    },
+    {
+        "id": 61,
+        "nombre": "TXT FIGHT OR ESCAPE",
+        "Label": "Bighit Music",
+        "Title": "The Chaos Chapter: FIGHT OR ESCAPE",
+        "cantidad": 251,
+        "precio": 20,
+        "categoria": "ALBUMS",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/TXT-Chaos.jpg"
+        ]
+    },
+    {
+        "id": 62,
+        "nombre": "TXT TEMPTATION SET",
+        "Label": "Big Hit Entertainment",
+        "Title": "TO BE ANNOUNCED",
+        "cantidad": 725,
+        "precio": 47,
+        "categoria": "ALBUMS",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/TXT-Temptation.png"
+        ]
+    },
+    {
+        "id": 63,
+        "nombre": "TXT THE CHAOS CHAPTER FREEZE",
+        "Label": "Big Hit Entertainment",
+        "Title": "The Chaos Chapter: FREEZE",
+        "cantidad": 272,
+        "precio": 46,
+        "categoria": "ALBUMS",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/TXT-Freeze.jpg"
+        ]
+    },
+    {
+        "id": 64,
+        "nombre": "TXT STILL DREAMING",
+        "Label": "Big Hit Entertainment",
+        "Title": "STILL DREAMING Limited Edition A",
+        "cantidad": 342,
+        "precio": 41,
+        "categoria": "ALBUMS",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/TXT-Still.jpg"
+        ]
+    },
+    {
+        "id": 65,
+        "nombre": "TXT DRAMA",
+        "Label": "Big Hit Entertainment",
+        "Title": "DRAMA SET",
+        "cantidad": 342,
+        "precio": 68,
+        "categoria": "ALBUMS",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/TXT-Drama.jpg"
+        ]
+    },
+    {
+        "id": 66,
+        "nombre": "TXT CHAOTIC WONDERLAND",
+        "Label": "Big Hit Entertainment",
+        "Title": "CHAOTIC WONDERLAND",
+        "cantidad": 342,
+        "precio": 60,
+        "categoria": "ALBUMS",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/TXT-Chaotic.png"
+        ]
+    },
+    {
+        "id": 67,
+        "nombre": "TXT THE DREAM CHAPTER ETERNITY",
+        "Label": "Big Hit Entertainment",
+        "Title": "The Dream Chapter : Eternity",
+        "cantidad": 342,
+        "precio": 68,
+        "categoria": "ALBUMS",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/TXT-Eternity.jpg"
+        ]
+    },
+    {
+        "id": 68,
+        "nombre": "TXT BLUE HOUR",
+        "Label": "Big Hit Entertainment",
+        "Title": "BLUE HOUR",
+        "cantidad": 342,
+        "precio": 15,
+        "categoria": "ALBUMS",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/TXT-Blue.jpg"
+        ]
+    },
+    {
+        "id": 69,
+        "nombre": "TXT THE DREAM CHAPTER STAR",
+        "Label": "Big Hit Entertainment",
+        "Title": "STAR",
+        "cantidad": 342,
+        "precio": 68,
+        "categoria": "ALBUMS",
+        "estado": true,
+        "imagenes": [
+            "imgs/productos/TXT-Star.jpg"
+        ]
+    }
+]
