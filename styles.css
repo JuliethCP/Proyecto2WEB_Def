@@ -134,8 +134,8 @@
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: rgb(255,174,225);
+    background: radial-gradient(circle, rgba(255,174,225,1) 0%, rgba(255,109,156,1) 100%);
     padding-top: 25px;
 }
 
@@ -187,4 +187,24 @@
     background: rgb(255,158,203);
     background: radial-gradient(circle, rgba(255,158,203,1) 0%, rgba(255,255,255,1) 50%, rgba(76,255,169,1) 100%);    
     padding-top: 25px;
+}
+
+.containerMerch{
+    padding-top: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background: rgb(80,118,255);
+    background: radial-gradient(circle, rgba(80,118,255,1) 0%, rgba(128,237,255,1) 100%);
+}
+
+.containerAlbums{
+    padding-top: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }

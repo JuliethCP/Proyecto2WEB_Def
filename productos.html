@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .product img {
+            max-width: 100%;
+            margin-bottom: 15px;
+        }
+
+        .product h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .product p {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <script>
+         var articulos;
+
+        function vender(id){
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', 'vender.php?id=' + id, true);
+
+            xhr.onload = function() {
+                if (xhr.status === 200) {
+                 console.log("Vendido");
+                } else {
+                    console.error('Error en la solicitud: ' + xhr.status);
+                }
+            };
+            
+            xhr.send();
+        }
+        
+        function actualizarLista(){
+        // Crear una instancia de XMLHttpRequest
+            var xhr = new XMLHttpRequest();
+
+            // Configurar la solicitud AJAX
+            xhr.open('GET', 'produc-details.php', true);
+
+            xhr.onreadystatechange= ()=>{console.log(xhr.readyState)}; 
+            
+            // Configurar el manejo de la respuesta
+            xhr.onload = function() {
+                if (xhr.status === 200) {
+                    // Parsear la respuesta JSON
+                    articulos = JSON.parse(xhr.responseText);
+                 
+                    // Mostrar los artículos en la página
+                    let listaArticulos = document.getElementById('lista-articulos');
+                    listaArticulos.innerHTML = '';
+                    articulos.forEach(function(articulo) {
+                        var li = document.createElement('li');
+                        li.textContent = articulo.nombre + " (" + articulo.cantidad + ")";
+                        li.articulo = articulo;
+                        li.onclick = ()=> {
+                            //window.location.href = "vender.php?id=" + articulo.id;
+                            vender(articulo.id);
+                            
+                        };
+                        listaArticulos.appendChild(li);
+                        
+                    });
+                } else {
+                    console.error('Error en la solicitud: ' + xhr.status);
+                }
+            };
+            // Enviar la solicitud AJAX
+            xhr.send();
+        }
+        setInterval(actualizarLista, 1000);
+
+    </script>
+</head>
+
+    <body onload="actualizarLista()">
+    
+    <h1>Listado de Artículos</h1>
+    <ul id="lista-articulos"></ul>
+
+
+</body>
+</html>
+</body>
