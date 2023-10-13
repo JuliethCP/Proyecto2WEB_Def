@@ -208,3 +208,37 @@
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
+
+
+
+/* CARDS */
+
+.card {
+    width: auto;
+    height: auto;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease; /* Agrega una transición para el efecto de escala */
+}
+
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Kumbh Sans', sans-serif; 
+    font-size: 1em;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: background-color 0.3s ease; /* Transición para el cambio de color de fondo */
+}
+
+.card:hover {
+    transform: scale(1.03); /* Escala la tarjeta al 105% del tamaño original */
+}
+
+.card:hover .card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.9);
+}
