@@ -4,7 +4,7 @@ document.querySelectorAll('.add-cart').forEach(button => {
 });
 
 // Event listener para limpiar el carrito al recargar la página
-window.addEventListener('beforeunload', limpiarCarrito);
+//window.addEventListener('beforeunload', limpiarCarrito);
 
 // Función para agregar productos al carrito
 function agregarAlCarrito(event) {
@@ -28,7 +28,7 @@ function agregarAlCarrito(event) {
 
 
 // Función para limpiar el carrito
-function limpiarCarrito() {
+//function limpiarCarrito() {
     // Remover el carrito del sessionStorage
-    sessionStorage.removeItem('carrito');
-}
+  //  sessionStorage.removeItem('carrito');
+//}
