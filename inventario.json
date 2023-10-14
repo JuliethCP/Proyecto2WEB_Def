@@ -9,7 +9,10 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
+            "imgs/merch/bp-hoodie.png",
             "imgs/productos/bp-hoodie.png"
+           
+
         ]
     },
     {

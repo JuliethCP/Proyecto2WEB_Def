@@ -210,10 +210,15 @@
 }
 
 
+.card:hover {
+    transform: scale(1.03); /* Escala la tarjeta al 105% del tamaño original */
+}
+.card{
+    transition: transform 0.3s ease; /* Agrega una transición para el efecto de escala */
+}
+/* Sections */
 
-/* CARDS */
-
-.card {
+.section {
     width: auto;
     height: auto;
     border: none;
@@ -235,10 +240,12 @@
     transition: background-color 0.3s ease; /* Transición para el cambio de color de fondo */
 }
 
-.card:hover {
+.section:hover {
     transform: scale(1.03); /* Escala la tarjeta al 105% del tamaño original */
 }
 
-.card:hover .card-img-overlay {
+
+
+.section:hover .card-img-overlay {
     background-color: rgba(0, 0, 0, 0.9);
 }
