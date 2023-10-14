@@ -9,7 +9,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/bp-hoodie.png"
+            "imgs/merch/bp-hoodie.png","imgs/productos/bp-hoodie.png"
         ]
     },
     {
@@ -22,7 +22,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/bp-hat.png"
+            "imgs/merch/bp-hat.png","imgs/productos/bp-hat.png"
         ]
     },
     {
@@ -35,7 +35,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/bp-tshirt.png"
+            "imgs/merch/bp-t-shirt.png","imgs/productos/bp-tshirt.png"
         ]
     },
     {
@@ -48,7 +48,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/bp-beanie.png"
+            "imgs/merch/bp-beanie.png","imgs/productos/bp-beanie.png"
         ]
     },
     {
@@ -61,7 +61,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/bp-dolls.png"
+            "imgs/merch/bp-dolls.png","imgs/productos/bp-dolls.png"
         ]
     },
     {
@@ -74,7 +74,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/bp-keyring.png"
+            "imgs/merch/bp-keyring.png","imgs/productos/bp-keyring.png"
         ]
     },
     {
@@ -86,7 +86,7 @@
         "precio": 8,
         "categoria": "MERCH",
         "imagenes": [
-            "imgs/productos/bp-stickers.png"
+            "imgs/merch/bp-stickers.png","imgs/productos/bp-stickers.png"
         ]
     },
     {
@@ -99,7 +99,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/bp-hoodieTour.png"
+            "imgs/merch/bp-hoodie2.png","imgs/productos/bp-hoodieTour.png"
         ]
     },
     {
@@ -112,7 +112,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/bp-bag.png"
+            "imgs/merch/bp-bag.png","imgs/productos/bp-bag.png"
         ]
     },
     {
@@ -125,7 +125,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/bp-binder.png"
+            "imgs/merch/bp-binder.png","imgs/productos/bp-binder.png"
         ]
     },
     {
@@ -138,7 +138,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/bp-photopackage.png"
+            "imgs/merch/bp-photos.png","imgs/productos/bp-photopackage.png"
         ]
     },
     {
@@ -151,7 +151,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/bp-scrunchie.png"
+            "imgs/merch/bp-scrunchie.png","imgs/productos/bp-scrunchie.png"
         ]
     },
     {
@@ -164,7 +164,7 @@
         "categoria": "ALBUMS",
         "estado": true,
         "imagenes": [
-            "imgs/productos/bp-album.png"
+            "imgs/merch/bp-album.png","imgs/productos/bp-album.png"
         ]
     },
     {
@@ -177,7 +177,7 @@
         "categoria": "ALBUMS",
         "estado": true,
         "imagenes": [
-            "imgs/productos/gidle-IAm.png"
+            "imgs/merch/g-idle-IAm.png","imgs/productos/gidle-IAm.png"
         ]
     },
     {
@@ -190,7 +190,7 @@
         "categoria": "ALBUMS",
         "estado": true,
         "imagenes": [
-            "imgs/productos/gidle-ITrust.png"
+            "imgs/merch/g-idle-ITrust.png","imgs/productos/gidle-ITrust.png"
         ]
     },
     {
@@ -203,7 +203,7 @@
         "categoria": "ALBUMS",
         "estado": true,
         "imagenes": [
-            "imgs/productos/gidle-dumdi.png"
+            "imgs/merch/g-idle-dumdi.png","imgs/productos/gidle-dumdi.png"
         ]
     },
     {
@@ -216,7 +216,7 @@
         "categoria": "ALBUMS",
         "estado": true,
         "imagenes": [
-            "imgs/productos/gidle-ILove.png"
+            "imgs/merch/g-idle-ILove.png","imgs/productos/gidle-ILove.png"
         ]
     },
     {
@@ -229,7 +229,7 @@
         "categoria": "ALBUMS",
         "estado": true,
         "imagenes": [
-            "imgs/productos/gidle-butterfly.png"
+            "imgs/merch/g-idle-IFeel.png","imgs/productos/gidle-butterfly.png"
         ]
     },
     {
@@ -242,7 +242,7 @@
         "categoria": "ALBUMS",
         "estado": true,
         "imagenes": [
-            "imgs/productos/gidle-heat.png"
+            "imgs/merch/g-idle-Heat.png","imgs/productos/gidle-heat.png"
         ]
     },
     {
@@ -255,7 +255,7 @@
         "categoria": "ALBUMS",
         "estado": true,
         "imagenes": [
-            "imgs/productos/gidle-IBurn.png"
+            "imgs/merch/g-idle-Burn.png","imgs/productos/gidle-IBurn.png"
         ]
     },
     {
@@ -268,7 +268,7 @@
         "categoria": "ALBUMS",
         "estado": true,
         "imagenes": [
-            "imgs/productos/gidle-cat.png"
+            "imgs/merch/g-idle-IFeel-Cat.png","imgs/productos/gidle-cat.png"
         ]
     },
     {
@@ -281,7 +281,7 @@
         "categoria": "ALBUMS",
         "estado": true,
         "imagenes": [
-            "imgs/productos/gidle-queen.png"
+            "imgs/merch/g-idle-IFeel-Queen.png","imgs/productos/gidle-queen.png"
         ]
     },
     {
@@ -294,7 +294,7 @@
         "categoria": "ALBUMS",
         "estado": true,
         "imagenes": [
-            "imgs/productos/gidle-set.png"
+            "imgs/merch/g-idle-IFeelSet.png","imgs/productos/gidle-set.png"
         ]
     },
     {
@@ -307,7 +307,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/LS-lightstick.png"
+            "imgs/merch/LS-LightStick.png","imgs/productos/LS-lightstick.png"
         ]
     },
     {
@@ -320,7 +320,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/LS-keyring.png"
+            "imgs/merch/LS-keyring.png","imgs/productos/LS-keyring.png"
         ]
     },
     {
@@ -333,7 +333,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/LS-badge.png"
+            "imgs/merch/LS-Badge.png","imgs/productos/LS-badge.png"
         ]
     },
     {
@@ -346,7 +346,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/LS-bottle.png"
+            "imgs/merch/LS-Bottle.png","imgs/productos/LS-bottle.png"
         ]
     },
     {
@@ -359,7 +359,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/LS-Bag.png"
+            "imgs/merch/LS-ShopperBag.png","imgs/productos/LS-Bag.png"
         ]
     },
     {
@@ -372,7 +372,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/LS-Hat.png"
+            "imgs/merch/LS-BucketHat.png","imgs/productos/LS-Hat.png"
         ]
     },
     {
@@ -385,7 +385,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/LS-Lanyardholder.png"
+            "imgs/merch/LS-Landyard.png","imgs/productos/LS-Lanyardholder.png"
         ]
     },
     {
@@ -398,7 +398,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/LS-Binder.png"
+            "imgs/merch/LS-Binder.png","imgs/productos/LS-Binder.png"
         ]
     },
     {
@@ -411,7 +411,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/LS-PhotoCardSet.png"
+            "imgs/merch/LS-PhotoCard.png","imgs/productos/LS-PhotoCardSet.png"
         ]
     },
     {
@@ -424,7 +424,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/LS-Stickers.png"
+            "imgs/merch/LS-Stickers.png","imgs/productos/LS-Stickers.png"
         ]
     },
     {
@@ -437,7 +437,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/LS-PostcardBook.png"
+            "imgs/merch/LS-Photobook.png","imgs/productos/LS-PostcardBook.png"
         ]
     },
     {
@@ -450,7 +450,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/NJ-Hoodie.png"
+            "imgs/merch/NJ-Hoodie.png","imgs/productos/NJ-Hoodie.png"
         ]
     },
     {
@@ -463,7 +463,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/NJ-Case.png"
+            "imgs/merch/NJ-Case.png","imgs/productos/NJ-Case.png"
         ]
     },
     {
@@ -476,7 +476,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/NJ-Bracelet.png"
+            "imgs/merch/NJ-Bracelet.png","imgs/productos/NJ-Bracelet.png"
         ]
     },
     {
@@ -489,7 +489,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/NJ-Smarttok"
+            "imgs/merch/NJ-smarttok.png","imgs/productos/NJ-Smarttok"
         ]
     },
     {
@@ -502,7 +502,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/NJ-Fluffy.png"
+            "imgs/merch/NJ-keyring.png","imgs/productos/NJ-Fluffy.png"
         ]
     },
     {
@@ -515,7 +515,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/NJ-Key.png"
+            "imgs/merch/NJ-TOKKIKEY.png","imgs/productos/NJ-Key.png"
         ]
     },
     {
@@ -528,7 +528,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/NJ-Necklace.png"
+            "imgs/merch/NJ-Necklace.png","imgs/productos/NJ-Necklace.png"
         ]
     },
     {
@@ -541,7 +541,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/NJ-Cushion.png"
+            "imgs/merch/NJ-sitting.png","imgs/productos/NJ-Cushion.png"
         ]
     },
     {
@@ -554,7 +554,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/NJ-Ring.png"
+            "imgs/merch/NJ-Ring.png","imgs/productos/NJ-Ring.png"
         ]
     },
     {
@@ -567,7 +567,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/NJ-Topper.png"
+            "imgs/merch/NJ-TOPPER.png","imgs/productos/NJ-Topper.png"
         ]
     },
     {
@@ -580,7 +580,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/NJ-Poster.png"
+            "imgs/merch/NJ-Poster.png","imgs/productos/NJ-Poster.png"
         ]
     },
     {
@@ -593,7 +593,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/NJ-LightStick.png"
+            "imgs/merch/NJ-lightstick.png","imgs/productos/NJ-LightStick.png"
         ]
     },
     {
@@ -606,7 +606,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/NJ-SWEATSHIRT.png"
+            "imgs/merch/NJ-SweatShirt.png","imgs/productos/NJ-SWEATSHIRT.png"
         ]
     },
     {
@@ -619,7 +619,7 @@
         "categoria": "MERCH",
         "estado": true,
         "imagenes": [
-            "imgs/productos/NJ-Dice.png"
+            "imgs/merch/NJ-keyringDice.png","imgs/productos/NJ-Dice.png"
         ]
     },
     {
@@ -632,7 +632,7 @@
         "categoria": "ALBUMS",
         "estado": true,
         "imagenes": [
-            "imgs/productos/BTS-Never.jpg"
+            "imgs/merch/BTS-WalkAlone.jpg","imgs/productos/BTS-Never.jpg"
         ]
     },
     {
@@ -645,7 +645,7 @@
         "categoria": "ALBUMS",
         "estado": true,
         "imagenes": [
-            "imgs/productos/BTS-Wings.jpg"
+            "imgs/merch/BTS-WINGS.jpg","imgs/productos/BTS-Wings.jpg"
         ]
     },
     {
@@ -658,7 +658,7 @@
         "categoria": "ALBUMS",
         "estado": true,
         "imagenes": [
-            "imgs/productos/BTS-Proof.png"
+            "imgs/merch/BTS-Proof.png","imgs/productos/BTS-Proof.png"
         ]
     },
     {
@@ -671,7 +671,7 @@
         "categoria": "ALBUMS",
         "estado": true,
         "imagenes": [
-            "imgs/productos/BTS-LY.png"
+            "imgs/merch/BTS-LOVEYOURSELF.png","imgs/productos/BTS-LY.png"
         ]
     },
     {
@@ -684,7 +684,7 @@
         "categoria": "ALBUMS",
         "estado": true,
         "imagenes": [
-            "imgs/productos/BTS-Map.jpg"
+            "imgs/merch/BTS-MapOfTheSoul.jpg","imgs/productos/BTS-Map.jpg"
         ]
     },
     {
@@ -697,7 +697,7 @@
         "categoria": "ALBUMS",
         "estado": true,
         "imagenes": [
-            "imgs/productos/BTS-2cool.jpg"
+            "imgs/merch/BTS-Cool.jpg","imgs/productos/BTS-2cool.jpg"
         ]
     },
     {
@@ -710,7 +710,7 @@
         "categoria": "ALBUMS",
         "estado": true,
         "imagenes": [
-            "imgs/productos/BTS-Dark.jpg"
+            "imgs/merch/BTS-DarkAndWild.jpg","imgs/productos/BTS-Dark.jpg"
         ]
     },
     {
@@ -723,7 +723,7 @@
         "categoria": "ALBUMS",
         "estado": true,
         "imagenes": [
-            "imgs/productos/BTS-Best.jpg"
+            "imgs/merch/BTS-TheBest.jpg","imgs/productos/BTS-Best.jpg"
         ]
     },
     {
@@ -736,7 +736,7 @@
         "categoria": "ALBUMS",
         "estado": true,
         "imagenes": [
-            "imgs/productos/BTS-Dynamite.jpg"
+            "imgs/merch/BTS-VinylDynamite.jpg","imgs/productos/BTS-Dynamite.jpg"
         ]
     },
     {
@@ -749,7 +749,7 @@
         "categoria": "ALBUMS",
         "estado": true,
         "imagenes": [
-            "imgs/productos/BTS-BE.jpg"
+            "imgs/merch/BTS-BE.jpg","imgs/productos/BTS-BE.jpg"
         ]
     },
     {
@@ -762,7 +762,7 @@
         "categoria": "ALBUMS",
         "estado": true,
         "imagenes": [
-            "imgs/productos/TXT-DreamMagic.jpg"
+            "imgs/merch/TXT-Magic.jpg","imgs/productos/TXT-DreamMagic.jpg"
         ]
     },
     {
@@ -775,7 +775,7 @@
         "categoria": "ALBUMS",
         "estado": true,
         "imagenes": [
-            "imgs/productos/TXT-Child.png"
+            "imgs/merch/TXT-Thursday.png","imgs/productos/TXT-Child.png"
         ]
     },
     {
@@ -788,7 +788,7 @@
         "categoria": "ALBUMS",
         "estado": true,
         "imagenes": [
-            "imgs/productos/TXT-Chaos.jpg"
+            "imgs/merch/TXT-FIGHTORESCAPE.jpg","imgs/productos/TXT-Chaos.jpg"
         ]
     },
     {
@@ -801,7 +801,7 @@
         "categoria": "ALBUMS",
         "estado": true,
         "imagenes": [
-            "imgs/productos/TXT-Temptation.png"
+            "imgs/merch/TXT-TEMPTATION.png","imgs/productos/TXT-Temptation.png"
         ]
     },
     {
@@ -814,7 +814,7 @@
         "categoria": "ALBUMS",
         "estado": true,
         "imagenes": [
-            "imgs/productos/TXT-Freeze.jpg"
+            "imgs/merch/TXT-FREEZE.jpg","imgs/productos/TXT-Freeze.jpg"
         ]
     },
     {
@@ -827,7 +827,7 @@
         "categoria": "ALBUMS",
         "estado": true,
         "imagenes": [
-            "imgs/productos/TXT-Still.jpg"
+            "imgs/merch/TXT-STILLDREAMING.jpg","imgs/productos/TXT-Still.jpg"
         ]
     },
     {
@@ -840,7 +840,7 @@
         "categoria": "ALBUMS",
         "estado": true,
         "imagenes": [
-            "imgs/productos/TXT-Drama.jpg"
+            "imgs/merch/TXT-DRAMA.jpg","imgs/productos/TXT-Drama.jpg"
         ]
     },
     {
@@ -853,7 +853,7 @@
         "categoria": "ALBUMS",
         "estado": true,
         "imagenes": [
-            "imgs/productos/TXT-Chaotic.png"
+            "imgs/merch/TXT-ChaoticWonderland.png","imgs/productos/TXT-Chaotic.png"
         ]
     },
     {
@@ -866,7 +866,7 @@
         "categoria": "ALBUMS",
         "estado": true,
         "imagenes": [
-            "imgs/productos/TXT-Eternity.jpg"
+            "imgs/merch/TXT-ETERNITY.jpg","imgs/productos/TXT-Eternity.jpg"
         ]
     },
     {
@@ -879,7 +879,7 @@
         "categoria": "ALBUMS",
         "estado": true,
         "imagenes": [
-            "imgs/productos/TXT-Blue.jpg"
+            "imgs/merch/TXT-BLUEHOUR.jpg","imgs/productos/TXT-Blue.jpg"
         ]
     },
     {
@@ -892,7 +892,7 @@
         "categoria": "ALBUMS",
         "estado": true,
         "imagenes": [
-            "imgs/productos/TXT-Star.jpg"
+            "imgs/merch/TXT-STAR.jpg","imgs/productos/TXT-Star.jpg"
         ]
     }
 ]
