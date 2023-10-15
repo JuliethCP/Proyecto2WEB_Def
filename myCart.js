@@ -20,22 +20,28 @@ async function buscarProductoPorId(id) {
             return producto;
         } else {
             console.error('El ID del producto no es un número válido.');
+            return null; // Retorna null si el ID no es válido
         }
     } catch (error) {
         console.error('Error al cargar el inventario:', error);
+        return null; // Retorna null en caso de error
     }
 }
 
-// Iterar sobre los productos en el carrito y mostrarlos
-carrito.forEach(async function(productoId) {
-    const producto = await buscarProductoPorId(productoId);
+// Crear un array de promesas para buscar productos por ID
+const promesas = carrito.map(async productoId => buscarProductoPorId(productoId));
 
-    if (producto) {
-        const li = document.createElement('li');
-        li.innerHTML = `
-            <img src="${producto.imagenes[0]}" alt="${producto.nombre}" width="50">
-            <span>${producto.nombre} - Precio: $${producto.precio}</span>
-        `;
-        carritoLista.appendChild(li);
-    }
-});
+// Esperar a que todas las promesas se completen
+Promise.all(promesas)
+    .then(resultados => {
+        resultados.forEach(producto => {
+            if (producto) {
+                const li = document.createElement('li');
+                li.innerHTML = `
+                    <img src="${producto.imagenes[0]}" alt="${producto.nombre}" width="50">
+                    <span>${producto.nombre} - Precio: $${producto.precio}</span>
+                `;
+                carritoLista.appendChild(li);
+            }
+        });
+    });

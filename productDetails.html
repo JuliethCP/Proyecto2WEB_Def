@@ -66,7 +66,7 @@
     </nav>
 
     <div class="container" style="margin-top: 8%;">
-        <div class="card">
+        <div class="card" id="cardP">
             <div class="row">
                 <div class="col-md-4">
                     <img src="imgs/placeholder-image.jpg" class="img-fluid" alt="Product Image" id="productImage">
@@ -84,18 +84,30 @@
                         </a>
                        
                     </div>
+                   
                 </div>
             </div>
         </div>
     </div>
+    <div class="container" style="display: flex; justify-content: center;">
+        <img src="imgs/placeholder-image.jpg" class="img-fluid" alt="Product Image" id="productImage1">
+    </div>
+    
     
     
     <style>
+
+        #cardP{
+            height: 20%;
+           
+        }
+
         /* Estilos CSS para la imagen */
         #productImage {
             max-width: 100%;
             height: auto;
         }
+  
     
         /* Estilos CSS para el contenedor de la imagen */
         .col-md-4 {
@@ -128,8 +140,10 @@
                     // Muestra la imagen del producto
                     const productImage = document.getElementById('productImage');
                     productImage.src = product.imagenes[0]; // Supongo que solo hay una imagen por producto
+                    const productImage1 = document.getElementById('productImage1');
+                    productImage1.src = product.imagenes[1];
     
-                    // Actualiza otros elementos HTML según sea necesario
+                    
                 }
             })
             .catch(error => {
