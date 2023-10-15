@@ -21,9 +21,17 @@ function agregarAlCarrito(event) {
 
     // Agregar el producto al carrito
     carrito.push(product);
-    console.log('Carrito de compras: ' + sessionStorage.getItem('carrito'));
+
     // Actualizar el carrito en el sessionStorage
     sessionStorage.setItem('carrito', JSON.stringify(carrito));
+
+    // Mostrar el mensaje de confirmación usando un alert
+    alert('Producto agregado al carrito correctamente!');
+
+    // Ocultar el alert después de 2 segundos (2000 milisegundos)
+    setTimeout(function() {
+        // Cerrar el alert (no hay una forma directa de cerrar un alert, por lo que no se puede eliminar, solo esperar el tiempo deseado)
+    }, 2000);
 }
 
 
