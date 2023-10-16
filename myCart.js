@@ -68,6 +68,8 @@ function agregarFilaAlCarrito(product, slNo) {
     // Después de agregar el botón "Eliminar", selecciona los botones y agrega manejadores de eventos
     const deleteButtons = row.querySelectorAll(".btnDelete");
 
+    // Dentro de la función para agregar filas al carrito
+   // Dentro de la función para agregar filas al carrito
     deleteButtons.forEach(button => {
         button.addEventListener("click", function () {
             const productId = button.getAttribute('data-id'); // Obtener el ID como cadena
@@ -77,7 +79,7 @@ function agregarFilaAlCarrito(product, slNo) {
             for (let i = 0; i < carrito.length; i++) {
                 if (carrito[i].id === productId) {
                     // Eliminar el producto del carrito
-                    carrito.splice(i, 1);
+                    const productoEliminado = carrito.splice(i, 1)[0]; // Obtener el producto eliminado
                     break; // Salir del bucle una vez que se encuentra y elimina el producto
                 } else {
                     console.log('No se encontró el producto en el carrito:', productId);
@@ -86,36 +88,37 @@ function agregarFilaAlCarrito(product, slNo) {
 
             // Actualizar el carrito en el sessionStorage
             sessionStorage.setItem('carrito', JSON.stringify(carrito));
-            console.log('Carrito después de eliminar:', carrito);
 
-            // Eliminar la fila de la tabla en el DOM
+            console.log('Carrito después de eliminar:', carrito);
             row.remove();
 
-            // Actualizar los números de las filas
             actualizarNumerosDeFilas();
+            total -= product.precio;
+
+            // Actualizar el total mostrado en la página
+            mostrarTotal();
+        
         });
     });
-}
 
+
+}
 
 function mostrarTotal() {
     const totalElement = document.getElementById('total'); // Utiliza el ID real de tu elemento.
     if (totalElement) {
-        totalElement.textContent = `$${total.toFixed(2)}`;
+        totalElement.textContent = `Total: $${total.toFixed(2)}`;
     }
 }
 
 
-// Función para actualizar el subtotal cuando cambia la cantidad en el input
 function actualizarSubtotal(input, precio, slNo) {
     const cantidad = parseInt(input.value);
     const subtotal = precio * cantidad;
-    total -= precio * cantidad; // Restar el total anterior
-    total += subtotal; // Sumar el nuevo subtotal
     const subtotalElement = document.querySelector(`.rem${slNo} .subtotal`);
     subtotalElement.textContent = `$${subtotal.toFixed(2)}`;
-    mostrarTotal();
 }
+
 
 // Agregar filas al carrito
 carrito.forEach(async function(productoIdObj, index) {
@@ -128,4 +131,4 @@ carrito.forEach(async function(productoIdObj, index) {
 });
 
 
-
+//setInterval(actualizarNumerosDeFilas, 1000);
