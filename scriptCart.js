@@ -34,11 +34,3 @@ function agregarAlCarrito(event) {
         });
     }
 }
-
-function puedeAgregarAlCarrito(productId) {
-    // Lógica para verificar si el producto puede ser agregado al carrito
-    // Devuelve true si se puede agregar, false si no se puede agregar
-    // Puedes implementar tu propia lógica aquí
-    // Por ejemplo, verificar si el producto está en stock, etc.
-    return true; // Devuelve true por defecto en este ejemplo
-}
