@@ -38,7 +38,6 @@ function actualizarNumerosDeFilas() {
 }
 
 let total = 0; 
-// Función para agregar una fila de producto al carrito
 function agregarFilaAlCarrito(product, slNo) {
     const row = carritoTabla.insertRow(carritoTabla.rows.length);
     console.log('Agregando fila al carrito:', product.id);
@@ -55,7 +54,7 @@ function agregarFilaAlCarrito(product, slNo) {
         <td class="align-middle text-center"><img src="${product.imagenes[0]}" alt="${product.nombre}" width="100"></td>
         <td class="align-middle text-center">
             <div class="input-group" >
-                 <input type="number" class="form-control" value="1" min="1" style="width: 20px; text-align: center;">
+                 <input type="number" class="form-control input-cantidad" value="1" min="1" style="width: 20px; text-align: center;">
             </div>
         </td>
         <td class="align-middle text-center">${product.nombre}</td>
@@ -65,11 +64,24 @@ function agregarFilaAlCarrito(product, slNo) {
 
     mostrarTotal();
 
+    // Actualizar el total cuando cambia la cantidad
+    const inputCantidad = row.querySelector('.input-cantidad');
+    inputCantidad.addEventListener('input', function () {
+        const nuevaCantidad = parseInt(inputCantidad.value);
+        const subtotal = product.precio * nuevaCantidad;
+
+        // Actualizar el total basado en todos los subtotales
+        total -= product.precio * cantidad;
+        total += subtotal;
+        cantidad = nuevaCantidad;
+
+        mostrarTotal();
+    });
+
     // Después de agregar el botón "Eliminar", selecciona los botones y agrega manejadores de eventos
     const deleteButtons = row.querySelectorAll(".btnDelete");
 
     // Dentro de la función para agregar filas al carrito
-   // Dentro de la función para agregar filas al carrito
     deleteButtons.forEach(button => {
         button.addEventListener("click", function () {
             const productId = button.getAttribute('data-id'); // Obtener el ID como cadena
@@ -93,15 +105,12 @@ function agregarFilaAlCarrito(product, slNo) {
             row.remove();
 
             actualizarNumerosDeFilas();
-            total -= product.precio;
+            total -= product.precio * cantidad;
 
             // Actualizar el total mostrado en la página
             mostrarTotal();
-        
         });
     });
-
-
 }
 
 function mostrarTotal() {
@@ -113,12 +122,23 @@ function mostrarTotal() {
 
 
 function actualizarSubtotal(input, precio, slNo) {
-    const cantidad = parseInt(input.value);
-    const subtotal = precio * cantidad;
-    const subtotalElement = document.querySelector(`.rem${slNo} .subtotal`);
-    subtotalElement.textContent = `$${subtotal.toFixed(2)}`;
-}
+    input.addEventListener('input', function () {
+        const cantidad = parseInt(input.value);
+        const subtotal = precio * cantidad;
+        const subtotalElement = document.querySelector(`.rem${slNo} .subtotal`);
+        subtotalElement.textContent = `$${subtotal.toFixed(2)}`;
+        
+        // Actualizar el total basado en todos los subtotales
+        total = 0;
+        const subtotals = carritoTabla.querySelectorAll('.subtotal');
+        subtotals.forEach(subtotalElem => {
+            total += parseFloat(subtotalElem.textContent.replace('$', ''));
+        });
 
+        // Actualizar el total mostrado en la página
+        mostrarTotal();
+    });
+}
 
 // Agregar filas al carrito
 carrito.forEach(async function(productoIdObj, index) {
@@ -131,4 +151,3 @@ carrito.forEach(async function(productoIdObj, index) {
 });
 
 
-//setInterval(actualizarNumerosDeFilas, 1000);
