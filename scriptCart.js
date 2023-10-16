@@ -34,3 +34,9 @@ function agregarAlCarrito(event) {
         });
     }
 }
+
+function puedeAgregarAlCarrito(productId) {
+    // Aquí va la lógica para verificar si el producto puede ser agregado al carrito o no
+    // Devuelve true si el producto puede ser agregado y false en caso contrario
+    return true;
+}
