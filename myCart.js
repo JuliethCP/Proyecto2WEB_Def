@@ -54,7 +54,7 @@ function agregarFilaAlCarrito(product, slNo) {
         <td class="align-middle text-center"><img src="${product.imagenes[0]}" alt="${product.nombre}" width="100"></td>
         <td class="align-middle text-center">
             <div class="input-group" >
-                 <input type="number" class="form-control input-cantidad" value="1" min="1" style="width: 20px; text-align: center;">
+                 <input type="number" class="form-control input-cantidad" value="1" min="1" data-id="${product.id}" style="width: 20px; text-align: center;">
             </div>
         </td>
         <td class="align-middle text-center">${product.nombre}</td>
@@ -142,7 +142,6 @@ function actualizarSubtotal(input, precio, slNo) {
 
 // Agregar filas al carrito
 carrito.forEach(async function(productoIdObj, index) {
-    // Convierte el ID almacenado como objeto a número antes de buscar el producto
     const producto = await buscarProductoPorId(productoIdObj);
 
     if (producto) {
@@ -151,3 +150,66 @@ carrito.forEach(async function(productoIdObj, index) {
 });
 
 
+async function actualizarBotonBuy() {
+    // Obtener el botón "Buy"
+    const buyButton = document.querySelector('.buttonA');
+    buyButton.addEventListener('click', async function () {
+        // Recorrer el carrito y actualizar el inventario
+        console.log('Actualizando inventario...');
+        for (const item of carrito) {
+            const productoId = item.id;
+
+            // Buscar el producto en el inventario por su ID
+            const productoEnInventario = await buscarProductoPorId({ id: productoId });
+
+            if (productoEnInventario) {
+                // Obtener la cantidad a comprar desde el campo de input correspondiente
+                const inputCantidad = document.querySelector(`.input-cantidad[data-id="${productoId}"]`);
+                
+                if (inputCantidad) {
+                    const cantidadComprada = parseInt(inputCantidad.value);
+                    console.log('Cantidad comprada:', cantidadComprada);
+                    if (!isNaN(cantidadComprada)) {
+                        // Restar la cantidad comprada del inventario
+                        productoEnInventario.cantidad -= cantidadComprada;
+
+                        // Actualizar el inventario en el archivo JSON local mediante una solicitud POST
+                        const formData = new FormData();
+                        formData.append('id', productoId);
+                        formData.append('cantidadComprada', cantidadComprada);
+
+                        try {
+                            const response = await fetch('actualizar_inventario.php', {
+                                method: 'POST',
+                                body: formData,
+                            });
+
+                            if (response.ok) {
+                                console.log('Inventario actualizado con éxito.');
+                            } else {
+                                console.error('Error al actualizar el inventario.');
+                            }
+                        } catch (error) {
+                            console.error('Error al realizar la solicitud:', error);
+                        }
+                    } else {
+                        console.error('La cantidad a comprar no es un número válido:', inputCantidad.value);
+                    }
+                } else {
+                    console.error('No se encontró el campo de cantidad correspondiente para el producto:', productoId);
+                }
+            }
+        }
+
+        // Limpiar el carrito
+        carrito = [];
+        sessionStorage.setItem('carrito', JSON.stringify(carrito));
+
+        // Actualizar la tabla del carrito y el total
+        carritoTabla.innerHTML = '';
+        mostrarTotal();
+    });
+}
+
+
+actualizarBotonBuy();
