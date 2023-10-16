@@ -46,6 +46,14 @@
     margin-bottom: 20px;
 }
 
+#total {
+    font-size: 24px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center; /* Para alinear al centro */
+}
 
 
 .card-img-top {
